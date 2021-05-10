@@ -1,0 +1,8 @@
+# ignore files -- aux fls
+*.aux
+*.fdb*
+*.fls
+*.log
+*.pdf
+*.synctex*
+
