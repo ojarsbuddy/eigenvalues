@@ -9,19 +9,32 @@
     a & b \\c&d\\
   \end{pmatrix}
 \]
+\[\qq*{Let}\lambda\qq{be an eigenvalue, then}
+  \begin{pmatrix}
+    a & b \\c&d\\
+  \end{pmatrix}=\lambda\begin{pmatrix}\imat{2}\end{pmatrix}
+\]
+\[\implies\qq{solving}
+  \mdet{a-\lambda & b \\c&d-\lambda}
+  =0
+\]
 
 \section*{Third Degree}
 \[\qq*{Find the eigenvalues of}
   \begin{pmatrix}
-    a & b & c & \\d&e&f\\g&h&i\\
-  \end{pmatrix}
+    a & b & c \\d&e&f\\g&h&i
+  \end{pmatrix}\implies\qq{solving}
+  \mdet{a-\lambda & b &c\\d&e-\lambda&f\\g&h&i-\lambda}
+  =0
 \]
 
 \section*{Fourth Degree}
 \[\qq*{Find the eigenvalues of}
   \begin{pmatrix}
-    a & b & c & d \\e&f&g&h\\i&j&k&l\\m&n&o&p\\
-  \end{pmatrix}
+    a & b & c & d \\e&f&g&h\\i&j&k&l\\m&n&o&p
+  \end{pmatrix}\implies\qq{solving}
+  \mdet{a-\lambda & b& c&d\\e&f-\lambda&g&h\\i&j&k-\lambda&l\\m&n&o&p-\lambda}
+  =0
 \]
 
 \end{document}
